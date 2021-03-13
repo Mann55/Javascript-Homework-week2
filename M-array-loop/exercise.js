@@ -14,11 +14,11 @@ const daysOfWeek = [
   "Sunday",
 ];
 
-function recieveArray (weekDays){
-  for(i=0; i<=6; i++){
+function recieveArray (strings){
+  for(i=0; i<strings.length; i++){
     
-  if(daysOfWeek[i].charAt(0)== "T"){
-    console.log(daysOfWeek[i]);
+  if(strings[i][0]== "T"){
+    console.log(strings[i]);
   }
   
   }
